@@ -40,7 +40,7 @@ const Skills = () => {
                 <Skill name="Web Design" x="32vw" y="-5vw" />
                 <Skill name="Git" x="0vw" y="-20vw" />
                 <Skill name="Material-UI" x="-25vw" y="18vw" />
-                <Skill name="Firebase" x="18vw" y="18vw" />
+                <Skill name="Firebase" x="15vw" y="18vw" />
             </div>
         </>
     )
