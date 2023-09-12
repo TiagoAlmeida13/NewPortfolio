@@ -50,20 +50,14 @@ const NavBar = () => {
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/tiago-almeida-dev/" target={"_blank"}
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 mx-3"
                 >
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://www.linkedin.com/in/tiago-almeida-dev/" target={"_blank"}
-                    whileHover={{ y: -2 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="w-6 mx-3"
-                >
-                    <PinterestIcon />
-                </motion.a>
+
 
 
             </nav>
