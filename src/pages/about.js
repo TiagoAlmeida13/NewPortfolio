@@ -46,8 +46,8 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Olá, sou o Tiago.</h2>
                             <p className='font-medium'>
-                                Desenvolvedor Front-end com experiência em Desenvolvimento de aplicações com React JS, Hooks, Styled-components,
-                                configuração de URA, Genesys Cloud e Controle de versionamento GIT/ SVN e atendimento ao cliente.
+                                Desenvolvedor Front-end com experiência em Desenvolvimento de aplicações com React JS, Styled-components,
+                                configuração de URA, Controle de versionamento GIT/ SVN e atendimento ao cliente.
                             </p>
                             <p className="my-4 font-medium">
                                 Formado em Análise e Desenvolvimento de Sistemas pela FIAP.

@@ -14,7 +14,7 @@ const HireMe = () => {
                 text-light shadow-md border border-solid border-dark w-20 h-20 rounded-full
                 font-semibold hover:bg-light hover:text-dark
                 '>
-                    Diga Oi
+                    Contato
                 </Link>
             </div>
 
