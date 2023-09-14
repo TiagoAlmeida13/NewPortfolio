@@ -8,12 +8,14 @@ import HireMe from '@/components/HireMe';
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
+
+
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Tiago Almeida</title>
-        <meta name="description" content="Tiago Almeida" />
+        <title>Tiago Machado</title>
+        <meta name="description" content="Tiago Machado" />
 
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen'>

@@ -12,7 +12,7 @@ const Footer = () => {
                     Build with NextJS
                     by&nbsp;<Link href="https://www.linkedin.com/in/tiago-almeida-dev/" className='underline
                     underline-offset-2 
-                    ' target={"_blank"}>Tiago Almeida</Link>
+                    ' target={"_blank"}>Tiago Machado</Link>
                 </div>
                 <Link href="https:twitter.com/tyygo" target={"_blank"} className='underline
                     underline-offset-2 

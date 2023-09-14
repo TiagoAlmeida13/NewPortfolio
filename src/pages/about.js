@@ -36,7 +36,7 @@ const about = () => {
     return (
         <>
             <Head>
-                <title>Tiago Almeida | About Page</title>
+                <title>Tiago Machado | Sobre</title>
                 <meta name="description" content="any description" />
             </Head>
             <main className='flex w-full flex-col items-center justify-center'>

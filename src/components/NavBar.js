@@ -1,8 +1,9 @@
+import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import Logo from "./Logo";
-import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, DribbbleIcon } from "./Icons";
+import { TwitterIcon, GithubIcon, LinkedInIcon } from "./Icons";
 import { motion } from 'framer-motion'
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -24,10 +25,18 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 
 const NavBar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(!isOpen)
+    }
+
     return (
         <header
             className='w-full px-32 py-8 font-medium flex items-center justify-between'
         >
+
             <nav>
                 <CustomLink href="/" title="Home" className='mr-4' />
                 <CustomLink href="/about" title="Sobre" className='mx-4' />
