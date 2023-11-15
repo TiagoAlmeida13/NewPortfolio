@@ -39,12 +39,12 @@ const about = () => {
                 <title>Tiago Machado | Sobre</title>
                 <meta name="description" content="any description" />
             </Head>
-            <main className='flex w-full flex-col items-center justify-center'>
+            <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="A paixão alimenta o propósito!" className='mb-16' />
                     <div className='grid w-full grid-cols-8 gap-16'>
                         <div className='col-span-3 flex flex-col items-start justify-start'>
-                            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Olá, sou o Tiago.</h2>
+                            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75  dark:text-light'>Olá, sou o Tiago.</h2>
                             <p className='font-medium'>
                                 Desenvolvedor Front-end com experiência em Desenvolvimento de aplicações com React JS, Styled-components,
                                 configuração de URA, Controle de versionamento GIT/ SVN e atendimento ao cliente.
@@ -76,14 +76,14 @@ const about = () => {
                                 <span className='inline-block text-7xl font-bold'>
                                     <AnimatedNumbers value={30} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75'>Projetos completos</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>Projetos completos</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl font-bold'>
-                                    <AnimatedNumbers value={2} />+
+                                    <AnimatedNumbers value={3} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75'>Anos de experiência</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>Anos de experiência</h2>
                             </div>
                         </div>
                     </div>

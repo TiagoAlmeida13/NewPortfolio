@@ -3,8 +3,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import Logo from "./Logo";
-import { TwitterIcon, GithubIcon, LinkedInIcon } from "./Icons";
-import { motion } from 'framer-motion'
+import { TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from "./Icons";
+import { motion } from 'framer-motion';
+import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
 const CustomLink = ({ href, title, className = "" }) => {
     const router = useRouter();
@@ -18,7 +19,11 @@ const CustomLink = ({ href, title, className = "" }) => {
             absolute left-0 -bottom-0.5
             group-hover:w-full transition-[width] ease duration-300
             ${router.asPath === href ? 'w-full' : 'w-0'}
-            `}>&nbsp;</span>
+            dark:bg-light
+            `}
+            >
+                &nbsp;
+            </span>
         </Link>
     )
 }
@@ -26,15 +31,13 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const handleClick = () => {
-        setIsOpen(!isOpen)
-    }
+    const [mode, setMode] = useThemeSwitcher();
 
     return (
         <header
-            className='w-full px-32 py-8 font-medium flex items-center justify-between'
+            className='w-full px-32 py-8 font-medium flex items-center justify-between
+            dark:text-light
+            '
         >
 
             <nav>
@@ -45,6 +48,7 @@ const NavBar = () => {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap'>
+
                 <motion.a href="https://twitter.com" target={"_blank"}
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.9 }}
@@ -67,7 +71,18 @@ const NavBar = () => {
                     <LinkedInIcon />
                 </motion.a>
 
-
+                <button
+                    onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                    className={`ml-3 flex items-center justify-center rounded-full p-1
+                    ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+                    `}
+                >
+                    {
+                        mode === "dark" ?
+                            <SunIcon className={"fill-dark"} />
+                            : <MoonIcon className={"fill-dark"} />
+                    }
+                </button>
 
             </nav>
 
