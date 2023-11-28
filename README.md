@@ -24,7 +24,7 @@
 
 ## 💻 Sobre o projeto
 
-Portfólio - é meu site de portfólio onde pretendo mostrar minha evolução como Dev Front-end.
+Portfólio - é meu site onde pretendo mostrar minha evolução como Dev Front-end.
 
 
 
