@@ -27,9 +27,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                     priority
-                    sizes="(max-width:768px) 100vw,
-              (max-width: 1200px) 50vw, 
-              50vw"
+                    sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
             </Link>
 
@@ -102,7 +100,10 @@ const projects = () => {
 
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="A imaginação supera o conhecimento" className='mb-16' />
+                    <AnimatedText
+                        text="A imaginação supera o conhecimento"
+                        className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
+                    />
 
                     <div className='grid grid-col-cols-12 gap-24 gap-y-32'>
                         <div className='col-span-12'>
