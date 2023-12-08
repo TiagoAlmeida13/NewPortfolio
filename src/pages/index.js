@@ -3,6 +3,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout'
 import Image from 'next/image'
 import Link from 'next/link';
+import TransitionEffect from '@/components/TransitionEffect';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import profilePic from "../../public/images/profile/developer-pic-1.png";
@@ -18,6 +19,7 @@ export default function Home() {
         <meta name="description" content="Tiago Machado" />
 
       </Head>
+      <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:p-16 sm:pt-8'>
           <div className="flex items-center justify-center w-full lg:flex-col">

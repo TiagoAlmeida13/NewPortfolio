@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "@/components/Layout";
+import TransitionEffect from '@/components/TransitionEffect';
 import { motion, useMotionValue } from "framer-motion";
 import AnimatedText from "@/components/AnimatedText";
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
@@ -102,6 +103,7 @@ const articles = () => {
                 <title>Tiago Machado | Artigos</title>
                 <meta name="description" content="any description" />
             </Head>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Palavras podem mudar o mundo!" className='mb-16 
