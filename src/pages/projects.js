@@ -6,7 +6,9 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from '@/components/TransitionEffect';
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/hidden-show-input-cover-image.jpg";
+import project2 from "../../public/images/projects/netflix-clone.jpg";
+import project3 from "../../public/images/projects/portfolio-next.jpg";
 import { motion } from "framer-motion"
 
 const FramerImage = motion(Image);
@@ -112,39 +114,34 @@ const projects = () => {
                     <div className='grid grid-col-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
+                                title="Portfólio em NextJS, Tailwind CSS e framer motion."
+                                img={project3}
+                                summary="Projeto criado com intuito de estudar e aprimorar os conhecimentos em NextJS, 
+                                Tailwind CSS e framer motion."
+                                link="https://new-portfolio-jz4ytevpn-tiagoalmeida13.vercel.app/"
+                                github="https://github.com/TiagoAlmeida13/NewPortfolio"
                                 type="Featured Project"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
+                                title="Input animado para estudo CSS e JS"
                                 img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
+                                summary="Projeto realizado para estudo de animação em CSS e manipulação de DOM com JS."
+                                link="https://tiagoalmeida13.github.io/Animated-show-hidden-input-password/"
+                                github="https://github.com/TiagoAlmeida13/Animated-show-hidden-input-password"
                                 type="Featured Project"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
+                                title="Projeto clonando a interface da Netflix"
+                                img={project2}
+                                summary="Projeto clonando a interface da Netflix, totalmente responsivo. Próxima feature será adicionar a troca do catalogo através de API e trailers dos respectivos filmes."
+                                link="https://tiagoalmeida13.github.io/Interface-Netflix"
+                                github="https://github.com/TiagoAlmeida13/Interface-Netflix"
                                 type="Featured Project"
 
                             />
