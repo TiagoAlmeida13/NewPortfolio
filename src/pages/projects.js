@@ -9,6 +9,9 @@ import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/hidden-show-input-cover-image.jpg";
 import project2 from "../../public/images/projects/netflix-clone.jpg";
 import project3 from "../../public/images/projects/portfolio-next.jpg";
+import project4 from "../../public/images/projects/portfolio-javascript.jpg";
+import project5 from "../../public/images/projects/tic-tac-toe.jpg";
+import project6 from "../../public/images/projects/todo-list.jpg";
 import { motion } from "framer-motion"
 
 const FramerImage = motion(Image);
@@ -120,7 +123,7 @@ const projects = () => {
                                 Tailwind CSS e framer motion."
                                 link="https://new-portfolio-jz4ytevpn-tiagoalmeida13.vercel.app/"
                                 github="https://github.com/TiagoAlmeida13/NewPortfolio"
-                                type="Featured Project"
+                                type="Projeto para estudo"
 
                             />
                         </div>
@@ -131,7 +134,7 @@ const projects = () => {
                                 summary="Projeto realizado para estudo de animação em CSS e manipulação de DOM com JS."
                                 link="https://tiagoalmeida13.github.io/Animated-show-hidden-input-password/"
                                 github="https://github.com/TiagoAlmeida13/Animated-show-hidden-input-password"
-                                type="Featured Project"
+                                type="Projeto para estudo"
 
                             />
                         </div>
@@ -142,47 +145,41 @@ const projects = () => {
                                 summary="Projeto clonando a interface da Netflix, totalmente responsivo. Próxima feature será adicionar a troca do catalogo através de API e trailers dos respectivos filmes."
                                 link="https://tiagoalmeida13.github.io/Interface-Netflix"
                                 github="https://github.com/TiagoAlmeida13/Interface-Netflix"
-                                type="Featured Project"
+                                type="Projeto para estudo"
 
                             />
                         </div>
 
                         <div className='col-span-12 '>
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="sadsadsasdasdasdA feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Portfólio feito com HTML, CSS e Javascript (antigo)"
+                                img={project4}
+                                summary="Foi criado com intuito de aprimorar os conhecimentos em HTML, CSS e Javascript."
+                                link="https://tiagoalmeida13.github.io/portfolio/"
+                                github="https://github.com/TiagoAlmeida13/portfolio"
+                                type="Projeto para estudo"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="sadsadsasdasdasdA feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Jogo da velha, tic tac toe"
+                                img={project5}
+                                summary="O bom e velho jogo da velha, criado com Javascript."
+                                link="https://tiagoalmeida13.github.io/tic-tac-toe/"
+                                github="https://github.com/TiagoAlmeida13/tic-tac-toe"
+                                type="Projeto para estudo"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="sadsadsasdasdasdA feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="To-do List com ReactJS"
+                                img={project6}
+                                summary="Projeto criado em ReactJs para estudo."
+                                link="https://to-do-list-pi-sooty.vercel.app/"
+                                github="https://github.com/TiagoAlmeida13/to-do-list"
+                                type="Projeto de estudo"
 
                             />
                         </div>
