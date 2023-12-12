@@ -14,7 +14,7 @@ const Footer = () => {
                     underline-offset-2 
                     ' target={"_blank"}>Tiago Machado</Link>
                 </div>
-                <Link href="https:twitter.com/tyygo" target={"_blank"} className='underline
+                <Link href="https://twitter.com/tyygo" target={"_blank"} className='underline
                     underline-offset-2 
                     '>Me siga no Twitter</Link>
             </Layout>
