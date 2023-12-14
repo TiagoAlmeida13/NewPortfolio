@@ -7,6 +7,7 @@ import TransitionEffect from '@/components/TransitionEffect';
 import { motion, useMotionValue } from "framer-motion";
 import AnimatedText from "@/components/AnimatedText";
 import article1 from "../../public/images/articles/tailwind.jpg";
+import article2 from "../../public/images/articles/hoc.jpg";
 
 const FramerImage = motion(Image);
 
@@ -109,11 +110,11 @@ const articles = () => {
                     <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16 '>
                         <li>
                             <FeaturedArticle
-                                title="Desvendando os Benefícios do Tailwind CSS."
-                                summary="Um breve resumo dos beneficios de usar o Tailwind ao invés do CSS."
-                                time="3 minutos de leitura"
-                                link="https://medium.com/@tyygo/desvendando-os-benef%C3%ADcios-do-tailwind-css-beb41d51b3f3"
-                                img={article1}
+                                title="Uma Jornada com High Order Components (HOC) na Programação."
+                                summary="Um breve resumo do desafio que foi aprender HOCs."
+                                time="2 minutos de leitura"
+                                link="https://medium.com/@tyygo/uma-jornada-com-high-order-components-hoc-na-programa%C3%A7%C3%A3o-f83e491984fc"
+                                img={article2}
                             />
                         </li>
                         <li>
@@ -128,6 +129,12 @@ const articles = () => {
                     </ul>
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>Todos os artigos</h2>
                     <ul>
+                        <Article
+                            title="Uma Jornada com High Order Components (HOC) na Programação."
+                            date="14 de Dezembro de 2023"
+                            link="https://medium.com/@tyygo/uma-jornada-com-high-order-components-hoc-na-programa%C3%A7%C3%A3o-f83e491984fc"
+                            img={article2}
+                        />
                         <Article
                             title="Desvendando os Benefícios do Tailwind CSS"
                             date="12 de Dezembro de 2023"
