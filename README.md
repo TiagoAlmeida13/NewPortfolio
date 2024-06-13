@@ -26,6 +26,8 @@
 
 Portfólio - é meu site onde pretendo mostrar minha evolução como Dev Front-end.
 
+Você pode acessa-lo clicando [AQUI][site]
+
 
 
 ## 🚀 Como executar o projeto
@@ -64,3 +66,4 @@ Feito por Tiago Almeida 👋🏽 [Entre em contato!](linkedin.com/in/tiago-macha
 [vscode]: https://code.visualstudio.com/
 [license]: https://opensource.org/licenses/MIT
 [portfolio]: https://tiagoalmeida13.github.io/NewPortfolio/
+[site]: https://new-portfolio-rho-silk.vercel.app/
