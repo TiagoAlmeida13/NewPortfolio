@@ -9,7 +9,7 @@ const Footer = () => {
             <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-6'>
                 <div className="flex items-center lg:py-2">
                     
-                    by&nbsp;<Link href="https://www.linkedin.com/in/tiago-almeida-dev/" className='underline
+                   <Link href="https://www.linkedin.com/in/tiago-almeida-dev/" className='underline
                     underline-offset-2 
                     ' target={"_blank"}>Tiago Machado</Link>
                 </div>
